@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://cdn.boxicons.com/fonts/basic/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#home" class="logo">Amber <span>Agrawal</span></a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1>Hi, It's <span>Amber</span></h1>
+        <h3 class="text-animation">I'm a <span></span></h3>
+        <p>I’m a passionate and curious B.Tech student in Information Technology at NIT Raipur, with a strong interest in full-stack web development and competitive programming. I enjoy building clean, responsive user interfaces and solving complex problems through code. Always eager to learn new technologies and create impactful digital experiences.</p>
+
+        <div class="social-icons">
+          <a
+            href="https://www.linkedin.com/in/amber-agrawal-13042528a/"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/amberagrawal" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="https://instagram.com/agrawalamber6" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://wa.me/9589579895" target="_blank"
+            ><i class="fab fa-whatsapp"></i
+          ></a>
+        </div>
+
+        <div class="btn-group">
+          <a href="#contact" class="btn">Contact</a>
+        </div>
+      </div>
+
+      <div class="home-img">
+        <img src="image.jpg" alt="" />
+      </div>
+    </section>
+
+    <section class="education" id="education">
+      <h2 class="heading">Education</h2>
+
+      <div class="timeline-items">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2021</div>
+          <div class="timeline-content">
+            <h3><i class="fas fa-graduation-cap"></i>Class 10th (CBSE)</h3>
+            <p>Got 96% in 10th Boards CBSE</p>
+            <p>Delhi Public School NTPC Korba</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2023</div>
+          <div class="timeline-content">
+            <h3><i class="fas fa-graduation-cap"></i>Class 12th (CBSE)</h3>
+            <p>Got 90.6% in 12th Boards CBSE</p>
+            <p>St.Xaviers Public School Korba</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2023-2027</div>
+          <div class="timeline-content">
+            <h3><i class="fas fa-university"></i>College</h3>
+            <p>Currently Studying in 5th Semester in IT Branch</p>
+            <p>National Institute Of Technology Raipur</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <h2 class="heading">Projects</h2>
+      <div class="projects-masonry">
+        <!-- Example Project Card -->
+
+        <div class="project-card">
+          <div class="project-image">
+            <!-- Replace with your project image -->
+            <img src="project1.jpg" alt="Project Title" />
+          </div>
+          <div class="project-content">
+            <h4>SmartHostel Portal</h4>
+            <p>
+              Flask, MongoDB, HTML, CSS, JavaScript, Bootstrap<br />
+              Built a role-based web platform to digitalize the process of
+              reporting and resolving hostel issues at NIT Raipur. Students can
+              securely register/login, raise complaints with image attachments,
+              and track resolution status in real-time. Wardens/admins access a
+              dashboard to view, filter, and update complaints efficiently, with
+              automated status handling. Used Flask to develop RESTful APIs,
+              MongoDB for dynamic data storage, and implemented email OTP
+              verification for user authentication. Focused on creating a clean,
+              responsive UI for both students and administrators, improving
+              communication and transparency in hostel management.
+            </p>
+            <a
+              href="https://github.com/amberagrawal/hostel.git"
+              class="project-link"
+              >View Project</a
+            >
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <!-- Replace with your project image -->
+            <img src="project5.png" alt="Project Title" />
+          </div>
+          <div class="project-content">
+            <h4>Portfolio</h4>
+            <p>
+              HTML, CSS, JavaScript<br />
+              Designed and developed a responsive personal portfolio using HTML,
+              CSS, and JavaScript. Showcases projects, skills, achievements, and
+              contact details with smooth scrolling and interactive elements.
+              Emphasized clean UI/UX, custom animations, and a modern,
+              professional design.
+            </p>
+            <a
+              href="https://github.com/amberagrawal/portfolo.git"
+              class="project-link"
+              >View Project</a
+            >
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <!-- Replace with your project image -->
+            <img src="project4.png" alt="Project Title" />
+          </div>
+          <div class="project-content">
+            <h4>Banking System</h4>
+            <p>
+              HTML, CSS, JavaScript<br />
+              Built a sleek, single-page banking interface using HTML, CSS, and
+              JavaScript. Implements core banking features like login, money
+              transfer, loan requests, and account closure with real-time UI
+              updates. Showcases clean animations, internationalized dates and
+              currency formatting, and session timeout for realistic UX.
+            </p>
+            <a
+              href="https://github.com/amberagrawal/banking-system.git"
+              class="project-link"
+              >View Project</a
+            >
+          </div>
+        </div>
+
+        <!-- Repeat .project-card for each project -->
+        <div class="project-card">
+          <div class="project-image">
+            <!-- Replace with your project image -->
+            <img src="project2.jpg" alt="Project Title" />
+          </div>
+          <div class="project-content">
+            <h4>Get-To-It</h4>
+            <p>
+              HTML, CSS, JavaScript<br />
+              Built a fun number guessing game using HTML, CSS, and JavaScript.
+              The game provides real-time feedback, score tracking, and animated
+              UI changes on each guess. Includes reset and high score features,
+              offering an engaging and interactive user experience.
+            </p>
+            <a
+              href="https://github.com/amberagrawal/Get-To-It.git"
+              class="project-link"
+              >View Project</a
+            >
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <!-- Replace with your project image -->
+            <img src="project3.png" alt="Project Title" />
+          </div>
+          <div class="project-content">
+            <h4>Roll-Out</h4>
+            <p>
+              HTML, CSS, JavaScript<br />
+              Developed a 2-player dice game using HTML, CSS, and JavaScript
+              with real-time score updates. Players roll the dice to accumulate
+              points, but rolling a '1' resets their turn score — adding
+              strategy and risk. Includes turn-based gameplay, reset
+              functionality, and interactive UI with smooth transitions and
+              score tracking.
+            </p>
+            <a
+              href="https://github.com/amberagrawal/Roll-Out.git"
+              class="project-link"
+              >View Project</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="achievements" id="achievements">
+      <h2 class="heading">Achievements</h2>
+      <div class="achievement-items">
+        <div class="achievement-item">
+          <div class="achievement-dot"></div>
+          <div class="achievement-date">2024</div>
+          <div class="achievement-content">
+            <h3><i class="fas fa-trophy"></i>3★ on CodeChef</h3>
+            <p>Max Rating : 1644+</p>
+            <p>
+              Achieved 3★ rating on CodeChef with strong problem-solving skills
+              in DSA and algorithms.
+            </p>
+          </div>
+        </div>
+        <div class="achievement-item">
+          <div class="achievement-dot"></div>
+          <div class="achievement-date">2024</div>
+          <div class="achievement-content">
+            <h3><i class="fas fa-trophy"></i>Pupil On CodeForces</h3>
+            <p>Max Rating : 1263+</p>
+            <p>Reached Pupil On CodeForces</p>
+          </div>
+        </div>
+        <div class="achievement-item">
+          <div class="achievement-dot"></div>
+          <div class="achievement-date">2025</div>
+          <div class="achievement-content">
+            <h3><i class="fas fa-trophy"></i>Mock OA</h3>
+            <p>
+              Secured Rank 1 in Mock OA conducted by Training And Placement Cell
+              of our college
+            </p>
+          </div>
+        </div>
+        <div class="achievement-item">
+          <div class="achievement-dot"></div>
+          <div class="achievement-date">2025</div>
+          <div class="achievement-content">
+            <h3><i class="fas fa-trophy"></i>TCP Contest</h3>
+            <p>
+              Secured Rank 1 in Contest conducted by coding club of our college
+            </p>
+          </div>
+        </div>
+        <div class="achievement-item">
+          <div class="achievement-dot"></div>
+          <div class="achievement-date">2024</div>
+          <div class="achievement-content">
+            <h3><i class="fas fa-trophy"></i>Top 120</h3>
+            <p>
+              Secured a global rank of 117 among 28000 participants,
+              participating in Starters 162 on CodeChef
+            </p>
+          </div>
+        </div>
+        <div class="achievement-item">
+          <div class="achievement-dot"></div>
+          <div class="achievement-date">2024</div>
+          <div class="achievement-content">
+            <h3><i class="fas fa-trophy"></i>Top 125</h3>
+            <p>
+              Secured a global rank of 124 among 30000 participants,
+              participating in Starters 157 on CodeChef
+            </p>
+          </div>
+        </div>
+        <div class="achievement-item">
+          <div class="achievement-dot"></div>
+          <div class="achievement-date">2025</div>
+          <div class="achievement-content">
+            <h3><i class="fas fa-trophy"></i>BiWeekly Contest (Rank: 418)</h3>
+            <p>
+              Secured a global rank of 418 among 27001 participants,
+              participating in BiWeekly Contest 158 on LeetCode
+            </p>
+          </div>
+        </div>
+        <div class="achievement-item">
+          <div class="achievement-dot"></div>
+          <div class="achievement-date">2025</div>
+          <div class="achievement-content">
+            <h3><i class="fas fa-trophy"></i>Weekly Contest (Rank: 935)</h3>
+            <p>
+              Secured a global rank of 935 among 29275 participants,
+              participating in Weekly Contest 456 on LeetCode
+            </p>
+          </div>
+        </div>
+        <div class="achievement-item">
+          <div class="achievement-dot"></div>
+          <div class="achievement-date">2025</div>
+          <div class="achievement-content">
+            <h3><i class="fas fa-trophy"></i>LeetCode</h3>
+            <p>
+              Max Rating : 1843+ On LeetCode after solving more than 850+
+              questions
+            </p>
+          </div>
+        </div>
+        <div class="achievement-item">
+          <div class="achievement-dot"></div>
+          <div class="achievement-date">2025</div>
+          <div class="achievement-content">
+            <h3><i class="fas fa-trophy"></i>Problem Solver</h3>
+            <p>
+              Solved more than 1920+ questions across various platforms and
+              participated in more than 50+ contests
+            </p>
+          </div>
+        </div>
+        <div class="achievement-item">
+          <div class="achievement-dot"></div>
+          <div class="achievement-date">2024</div>
+          <div class="achievement-content">
+            <h3><i class="fas fa-trophy"></i>Ninja Dominator</h3>
+            <p>
+              Achieved Ninja Dominator Badge on Coding Ninjas after continuously
+              solving questions accross different topics
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+      <form action="https://formspree.io/f/mblyepga" method="POST">
+        <div class="input-group">
+          <div class="input-box">
+            <input
+              type="text"
+              name="Full Name"
+              placeholder="Full Name"
+              required
+            />
+            <input type="email" name="Email" placeholder="Email" required />
+          </div>
+          <div class="input-box">
+            <input
+              type="number"
+              name="Phone Number"
+              placeholder="Phone Number"
+            />
+            <input type="text" name="Subject" placeholder="Subject" />
+          </div>
+        </div>
+        <div class="input-group-2">
+          <textarea
+            name="Message"
+            cols="30"
+            rows="10"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <input type="submit" value="Send Message" class="btn" />
+        </div>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="social">
+        <a
+          href="https://www.linkedin.com/in/amber-agrawal-13042528a/"
+          target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/amberagrawal" target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a href="https://instagram.com/agrawalamber6" target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://wa.me/9589579895" target="_blank"
+          ><i class="fab fa-whatsapp"></i
+        ></a>
+      </div>
+
+      <ul class="list">
+        <li>
+          <a href="#home">About Me</a>
+        </li>
+        <li>
+          <a href="#education">Education</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#achievements">Achievements</a>
+        </li>
+      </ul>
+      <p class="copyright">©️Amber Agrawal | All rights reserved</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
